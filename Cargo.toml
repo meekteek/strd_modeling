@@ -1,0 +1,15 @@
+[package]
+name = "strd_modeling"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+plotters = "0.3.0"
+csv = "1.1.6"
+
+serde = {version = "1.0.130", features = ["derive"]}
+reqwest = {version = "0.11.6", features = ["json"]}
+tokio ={ version = "1", features = ["full"] }
+serde_json = "1.0.68"
